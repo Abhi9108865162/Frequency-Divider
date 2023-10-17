@@ -1,5 +1,5 @@
 # Frequency-Divider
-# Top Module Name : PES_iiitb_freqdiv
+# Top Module Name : PES_freqdiv
 
 The process of designing and fabricating integrated circuits, commonly referred to as "design to tapeout," is a complex and highly structured sequence of steps
 
