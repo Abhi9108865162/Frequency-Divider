@@ -114,11 +114,31 @@ show
 
 12
 ```
-write_verilog -noattr PES_freqdiv.v 
+write_verilog -noattr PES_freqdiv_netlist.v
 ```
-![Screenshot from 2023-10-17 17-50-21](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/704455dc-bb57-4e26-af34-16fb6ef58af3)
-
 13
 ```
-
+exit
 ```
+![Screenshot from 2023-10-18 15-42-27](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/fa91d45d-da86-4d4e-94ad-7e257aae6716)
+
+
+
+14
+```
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v PES_freqdiv_netlist.v PES_freqdiv_tb.v 
+```
+
+15
+```
+./a.out
+```
+
+16
+```
+gtkwave PES_freqdiv_vcd.vcd
+```
+![Screenshot from 2023-10-18 15-47-35](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/394c50c2-0223-4fef-8aff-9aad9679d5a9)
+
+![Screenshot from 2023-10-18 15-45-24](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/f8c863f5-52aa-4b7a-a5ac-01d4224fac59)
+
