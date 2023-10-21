@@ -143,6 +143,14 @@ end
 endmodule
 
 ```
+# Schematic RTL Using Vivado
+![image](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/485b68d6-c357-4be1-a3e3-d744eaf3f79a)
+
+# Schematic Synthesis Using Vivado
+![image](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/a3ccda66-0f19-4ce5-9a1c-2a9ea6859a98)
+# Schematic Run Simulation Using Vivado
+![image](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/29cdb0fe-9a10-45d8-81d5-507a5165efcd)
+
 # Synthesis and GLS
 Open Terminal
 
