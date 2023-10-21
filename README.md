@@ -44,6 +44,105 @@ This process is highly iterative, with design changes and optimizations occurrin
 2. Physical Design
 3. GDS Tapeout
 
+# Frequency Divider
+
+A frequency divider is a digital circuit or component that takes an input signal, typically a clock or a periodic signal, and produces an output signal with a lower frequency. It's a fundamental building block in digital electronics and is often used in various applications, including digital counters, clock signal generation, and frequency scaling.
+
+Frequency dividers are designed to reduce the frequency of the input signal by a fixed ratio or factor. Common division ratios include 2 (divide by 2), 4 (divide by 4), 8 (divide by 8), and so on, but other ratios are also possible. The output signal produced by a frequency divider typically has a square wave or pulse-like shape.
+
+few common use cases for frequency dividers
+
+  - Clock Generation: Frequency dividers are often used to generate clock signals with specific frequencies for different components within a digital system. For example, a CPU might require a clock signal with a lower frequency than the system clock, and a frequency divider can be used to derive this lower-frequency clock.
+
+  - Counters: Frequency dividers can be used as building blocks for digital counters, which count the number of clock cycles or events. By cascading multiple frequency dividers with different division ratios, you can create counters that count to specific values.
+
+  - Data Synchronization: In digital communication systems, frequency dividers can be used to ensure that data signals are sampled at the correct rate, making it easier to synchronize data transfer between devices.
+
+  - PWM Generation: In applications like motor control or LED dimming, pulse-width modulation (PWM) signals are often generated using frequency dividers to control the duty cycle and achieve the desired output.
+
+Frequency dividers can be implemented in various ways, such as using flip-flops, counters, or more complex digital logic. The specific implementation depends on the desired division ratio, speed requirements, and the available resources in the digital system.
+
+Frequency dividers are essential components in digital design and are used in a wide range of electronic devices and systems to manage and manipulate timing and control signals.
+
+# Code for Frequency Divider
+```
+module PES_freqdiv(en,clkin,n,clkout);
+
+input clkin;
+input [3:0]n;
+input en;
+reg [3:0]pc;
+reg [3:0]nc;
+output clkout;
+
+always@(posedge clkin)
+begin
+if(en==1)
+begin
+  if(pc<(n-1))
+	pc<=pc+1;
+  else
+	pc<=0;
+end
+else
+ pc<=0;
+end
+
+always@(negedge clkin)
+begin
+if(en==1)
+begin
+  if(nc<(n-1))
+	nc<=nc+1;
+  else
+	nc<=0;
+end
+else
+  nc<=0;
+end
+
+assign clkout=(n%2==0)?(pc<n/2):((pc<(n/2)+1)&&(nc<(n/2)+1));
+endmodule
+```
+# Code for Testbench Frequency Divider
+```
+`timescale 1ns/1ps
+module PES_freqdiv_tb;
+
+reg clk;
+reg en;
+reg [3:0]n;
+wire clkout;
+
+PES_freqdiv f1(en,clk,n,clkout);
+
+initial
+begin
+clk=0;
+en=0;
+n=3;
+$dumpfile ("PES_freqdiv_vcd.vcd"); 
+$dumpvars(0,PES_freqdiv_tb);
+
+
+forever
+#10 clk=~clk;
+
+end
+
+
+initial
+begin
+#40 en=1;
+#340 n=4; 
+#440 n=11;
+#1100 n=6;
+#640 $finish;
+
+end 
+endmodule
+
+```
 # Synthesis and GLS
 Open Terminal
 
