@@ -191,25 +191,28 @@ read_verilog PES_freqdiv.v
 ```
 synth -top PES_freqdiv 
 ```
-![Screenshot from 2023-10-17 17-37-37](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/d454392e-9618-44a0-abe3-b821d035b168)
+![Screenshot from 2023-10-21 11-30-52](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/3dd5aee5-8d1d-40e4-ab3e-057798b356df)
+
+![Screenshot from 2023-10-21 11-31-00](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/02b3eafd-cef8-40e3-8187-cf33c7bc5303)
+
 
 9
 ```
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
-![Screenshot from 2023-10-17 17-42-02](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/db6a58a8-252e-4d39-a892-bc8b9bbbfca8)
+![Screenshot from 2023-10-21 11-32-57](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/92666567-6eca-4fb9-a551-49ce11b0c1c3)
 
 10
 ```
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
-![Screenshot from 2023-10-17 17-43-48](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/57dda830-4d23-4dfe-9aa2-4a346f0570a3)
+![Screenshot from 2023-10-21 11-33-31](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/8097d160-8131-4477-a48d-e7eb1bd0a842)
 
 11
 ```
 show
 ```
-![Screenshot from 2023-10-17 17-45-10](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/04ae0e7f-8c3c-4ba0-ab79-e9adce2fb0a7)
+![Screenshot from 2023-10-21 11-34-23](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/53533fb3-b34c-4633-9adb-632b06cb790b)
 
 12
 ```
@@ -219,10 +222,6 @@ write_verilog -noattr PES_freqdiv_netlist.v
 ```
 exit
 ```
-![Screenshot from 2023-10-18 15-42-27](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/fa91d45d-da86-4d4e-94ad-7e257aae6716)
-
-
-
 14
 ```
 iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v PES_freqdiv_netlist.v PES_freqdiv_tb.v 
@@ -240,4 +239,12 @@ gtkwave PES_freqdiv_vcd.vcd
 ![Screenshot from 2023-10-18 15-47-35](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/394c50c2-0223-4fef-8aff-9aad9679d5a9)
 
 ![Screenshot from 2023-10-18 15-45-24](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/f8c863f5-52aa-4b7a-a5ac-01d4224fac59)
+
+# Comparing the Output before and after GLS.
+## Before GLS
+![Screenshot from 2023-10-21 11-47-02](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/a06e7446-8212-43c4-bfcf-256607bc5923)
+
+## After GLS
+![Screenshot from 2023-10-21 11-47-14](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/9696234a-9fe3-411e-9f06-31f3d0e5dcf2)
+
 
