@@ -379,6 +379,14 @@ ASIC (Application-Specific Integrated Circuit) physical design refers to the pro
 - Physical Verification: Physical verification checks the layout against design rules, such as minimum feature size and spacing, to ensure that the chip can be reliably manufactured and is free of errors that could lead to failures.
 
 - Package Design: The package design stage involves creating the physical package that houses the ASIC. This package connects the chip to the outside world and provides protection and thermal management.
+
+![Screenshot from 2023-11-02 19-17-34](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/70e0744a-8ae8-4568-939a-b5f3f4112703)
+![Screenshot from 2023-11-02 19-17-46](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/270ab375-7e43-4190-aad4-991989e54243)
+![Screenshot from 2023-11-02 19-17-55](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/af5bc70b-9953-4606-8bea-c966434e3dfe)
+![Screenshot from 2023-11-02 17-02-04](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/7d1eb598-9fb8-437c-b5e1-7ee858d6e228)
+
+
  
 </details>
+
 
