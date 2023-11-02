@@ -317,6 +317,22 @@ gtkwave PES_freqdiv_vcd.vcd
 <details>
 <summary> Physical design </summary>
 
+	
+ # Physical Design
+	
+ASIC (Application-Specific Integrated Circuit) physical design refers to the process of creating the physical layout of an integrated circuit that is tailored for a specific application or function. It involves defining the precise placement and routing of transistors, interconnects, and other components on a semiconductor wafer. This phase ensures that the ASIC meets performance, power, and area requirements. Key steps in ASIC physical design include floorplanning, placement, routing, and verification to ensure the final chip functions as intended within the constraints of the target application.
+## Step in Physical Design
+
+> Floorplanning
+> Placement
+>  Routing
+> Clock Tree Synthesis (CTS)
+> Power Planning
+> Signal Integrity Analysis
+> Timing Analysis
+> Design for Testability (DFT)
+> Physical Verification
+> Package Design
 
 
  
