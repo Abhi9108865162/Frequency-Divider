@@ -1,10 +1,7 @@
 # Frequency-Divider
 # Top Module Name : PES_freqdiv
 <details>
-<summary> 
-
-# Tool Installtion Required for RTL synthesis and GLS simulation
-
+<summary> Tool Installtion Required for RTL synthesis and GLS simulation
 </summary>
 
 # Tools Used in RTL to GLS flow are:
