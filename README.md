@@ -64,6 +64,9 @@ Frequency dividers can be implemented in various ways, such as using flip-flops,
 
 Frequency dividers are essential components in digital design and are used in a wide range of electronic devices and systems to manage and manipulate timing and control signals.
 
+<details>
+<summary> RTL synthesis and GLS simulation: </summary>
+
 # Code for Frequency Divider
 ```
 module PES_freqdiv(en,clkin,n,clkout);
@@ -255,4 +258,23 @@ gtkwave PES_freqdiv_vcd.vcd
 ## After GLS
 ![Screenshot from 2023-10-21 11-47-14](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/9696234a-9fe3-411e-9f06-31f3d0e5dcf2)
 
+</details>
+
+<details>
+<summary> Openlane Tool Installation </summary>
+
+
+
+
+ 
+</details>
+
+
+<details>
+<summary> Physical design </summary>
+
+
+
+ 
+</details>
 
