@@ -426,11 +426,8 @@ gen_pdn
 6
 ```
 run_routing
-``
-
-
-![Screenshot from 2023-11-03 23-15-10](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/0bc69770-dac9-49f7-a4e1-ee883e9a558e)
-
+```
+![Screenshot from 2023-11-03 23-15-10](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/b49ce06a-e032-4629-be10-ad7a63f7725d)
 
 
 # Magic Output For Floorplan
