@@ -394,13 +394,42 @@ sudo make mount
 
 
 # Interactive flow openlane
+```
+cd OpenLane
+sudo make mount
+./flow.tcl -interactive
+package reuire opanlane
+prep -design PES_freqdiv
+```
+1
+```
+run_synthesis
+```
+2
+```
+run_floorplan
+```
+3
+```
+run_placement
+```
+![Screenshot from 2023-11-03 23-15-03](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/0564535c-f533-4528-ae69-460e9e401e2e)
+
+4
+```
+run_cts
+```
+5
+```
+gen_pdn
+```
+6
+```
+run_routing
+``
 
 
-
-
-
-
-
+![Screenshot from 2023-11-03 23-15-10](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/0bc69770-dac9-49f7-a4e1-ee883e9a558e)
 
 
 
