@@ -336,16 +336,31 @@ sudo apt-get update
 ```
 3. Install
 ```
-
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 4. Sudo docker run
-
+```
+sudo docker run hello-world
+```
 5. Making docker available without root
+```
+sudo groupadd docker
+sudo usermod -aG docker $USER
+sudo reboot # REBOOT!
 
+```
 6. Check docker installation
-
+```
+# After reboot
+docker run hello-world
+```
 7. Download and install OpenLane   
-
+```
+git clone --depth 1 https://github.com/The-OpenROAD-Project/OpenLane.git
+cd OpenLane/
+make
+make test
+```
 
  
 </details>
