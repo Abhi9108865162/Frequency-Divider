@@ -395,8 +395,8 @@ ASIC (Application-Specific Integrated Circuit) physical design refers to the pro
 
 - Package Design: The package design stage involves creating the physical package that houses the ASIC. This package connects the chip to the outside world and provides protection and thermal management.
 
-
-# Automation
+# Openlane FLow 
+## Automation
 
 -  Speed and Efficiency: Automated OpenLane flow is designed for speed and efficiency. It can quickly generate a complete ASIC design without the need for much user intervention.
 - Batch Processing: It is well-suited for batch processing where you have a large number of similar designs or you want to quickly evaluate multiple design options.
@@ -404,7 +404,7 @@ ASIC (Application-Specific Integrated Circuit) physical design refers to the pro
 - Minimal User Expertise: You do not need in-depth expertise in ASIC design to run the automated flow, making it accessible to a wider range of users.
 - Default Configuration: It typically relies on a default configuration and a pre-defined set of tools and options, which simplifies the process but may not be optimized for specific custom requirements.
 
-# Interactive
+## Interactive
 
 - Customization: The interactive OpenLane flow allows users to have more control and customization over the design process. You can fine-tune parameters, specify custom design rules, and make changes at different stages of the flow.
 
