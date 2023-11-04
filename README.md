@@ -444,6 +444,14 @@ run_routing
 ```
 ![Screenshot from 2023-11-03 23-15-10](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/b49ce06a-e032-4629-be10-ad7a63f7725d)
 
+# Synthesis (Printing Statistics)
+![Screenshot from 2023-11-04 09-25-15](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/f99e517a-7d93-4bf6-a831-bf57d6df88ae)
+
+![Screenshot from 2023-11-04 09-25-32](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/d42e83c0-6656-4afd-a9b0-cc2682a4f1a3)
+![Screenshot from 2023-11-04 09-25-58](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/ab2e8940-4a1a-4a2d-b6a8-c5fcd4598d33)
+
+
+
 
 # Magic Output For Floorplan
 ![floorplan tkcon](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/9537b16e-bf0c-4bad-8ffe-8d9836f4be71)
