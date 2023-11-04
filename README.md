@@ -374,7 +374,7 @@ make test
 	
 ASIC (Application-Specific Integrated Circuit) physical design refers to the process of creating the physical layout of an integrated circuit that is tailored for a specific application or function. It involves defining the precise placement and routing of transistors, interconnects, and other components on a semiconductor wafer. This phase ensures that the ASIC meets performance, power, and area requirements. Key steps in ASIC physical design include floorplanning, placement, routing, and verification to ensure the final chip functions as intended within the constraints of the target application.
 ## Step in Physical Design
-
+-  Synthesis: In ASIC design, synthesis is the process of converting a high-level hardware description (written in HDLs like VHDL or Verilog) into a gate-level representation using logic gates and flip-flops. The synthesis tool optimizes the design for area, power, and timing.
 - Floorplanning: Floorplanning is the initial step in physical design where you define the approximate locations and sizes of various blocks and components on the chip. It sets the overall framework for the chip's layout.
 
 - Placement: Placement involves determining the exact positions of individual components, such as logic cells and memory elements, within the defined floorplan. Good placement is critical for meeting performance and area requirements.
