@@ -414,7 +414,7 @@ ASIC (Application-Specific Integrated Circuit) physical design refers to the pro
 
 - Design Exploration: It is suitable for design exploration, where designers want to experiment with different design options and evaluate their impact on the final result.
 
-    - Expertise Required: Using the interactive flow requires a higher level of expertise in ASIC design, as it involves more manual intervention and decision-making
+- Expertise Required: Using the interactive flow requires a higher level of expertise in ASIC design, as it involves more manual intervention and decision-making
 
 
 
