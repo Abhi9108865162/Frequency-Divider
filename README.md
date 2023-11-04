@@ -395,6 +395,36 @@ ASIC (Application-Specific Integrated Circuit) physical design refers to the pro
 
 - Package Design: The package design stage involves creating the physical package that houses the ASIC. This package connects the chip to the outside world and provides protection and thermal management.
 
+
+# Automation:
+
+    -  Speed and Efficiency: Automated OpenLane flow is designed for speed and efficiency. It can quickly generate a complete ASIC design without the need for much user intervention.
+
+    - Batch Processing: It is well-suited for batch processing where you have a large number of similar designs or you want to quickly evaluate multiple design options.
+
+    - Scriptable and Reproducible: The flow can be scripted, making it suitable for running on large clusters or cloud-based infrastructure, and it ensures reproducible results.
+
+    - Minimal User Expertise: You do not need in-depth expertise in ASIC design to run the automated flow, making it accessible to a wider range of users.
+
+    - Default Configuration: It typically relies on a default configuration and a pre-defined set of tools and options, which simplifies the process but may not be optimized for specific custom requirements.
+
+# Interactive:
+
+    - Customization: The interactive OpenLane flow allows users to have more control and customization over the design process. You can fine-tune parameters, specify custom design rules, and make changes at different stages of the flow.
+
+    - Optimization: Users can optimize the design for specific performance, power, or area requirements by adjusting various design parameters and choices.
+
+    - Debugging and Troubleshooting: When issues or design challenges arise, the interactive flow provides a way to interactively diagnose and resolve them, allowing for more in-depth analysis.
+
+    - Design Exploration: It is suitable for design exploration, where designers want to experiment with different design options and evaluate their impact on the final result.
+
+    - Expertise Required: Using the interactive flow requires a higher level of expertise in ASIC design, as it involves more manual intervention and decision-making
+
+
+
+
+
+
 # Automatic flow openlane
 ```
 cd OpenLane
