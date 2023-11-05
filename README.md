@@ -542,11 +542,24 @@ Total                  7.35e-05   2.67e-05   2.81e-10   1.00e-04 100.0%
 
 
 # Magic Output For Floorplan
-![floorplan tkcon](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/9537b16e-bf0c-4bad-8ffe-8d9836f4be71)
+![Screenshot from 2023-11-04 21-57-33](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/cb428859-6fec-4a3f-9109-af6a99bb5453)
+![Screenshot from 2023-11-04 21-57-38](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/f6f63048-fdbf-46bd-accd-b6d73105be96)
+
+
+
 # Magic Output For Placement
-![placement](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/4aca5b83-8ff9-4e11-86e4-1af0c68b680b)
+![Screenshot from 2023-11-04 22-00-32](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/8472f1a5-4410-4424-90d8-15cb158a1b5d)
+![Screenshot from 2023-11-04 22-00-38](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/0388b713-45a4-4338-a28b-3501ee801b89)
+
+
+
+
 # Magic Output For CTS
-![cts](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/43a31d14-76f4-41c7-9d01-aa7e80b59bbf)
+![Screenshot from 2023-11-04 22-02-27](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/f0b79981-f1e6-45c3-940e-ffd9ec758c94)
+
+![Screenshot from 2023-11-04 22-02-32](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/f5523adf-fa8f-4aca-bc23-bef9274317fb)
+
+
 
 # CTS (Reports Generated)
 
@@ -1382,7 +1395,9 @@ _127_/CLK ^
 
 
 # Magic Output For Routing
-![routing](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/956c5966-1e18-48a3-8389-23b3eba44f5f)
+![Screenshot from 2023-11-04 22-03-25](https://github.com/Abhi9108865162/Frequency-Divider/assets/141741065/0ec82e0a-0c86-4d84-bb6f-0e162daab755)
+
+
 
 # Routing (Reports Generated)
 
